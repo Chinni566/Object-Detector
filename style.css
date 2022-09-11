@@ -1,0 +1,33 @@
+body{
+    background-size:cover;
+    text-align: center;
+  }
+
+   button{
+      font-size: 18px;
+      height: 40px;
+      width: 280px;
+      border:double;
+      border-radius: 20px;
+      border-color:lightseagreen;
+         color: white;
+      background-color:black;
+     
+    }
+
+    #buttonheading{
+      color:rgb(0, 229, 255);
+    }
+
+    button:hover{
+      color:rgb(47, 0, 255);
+      font-size: 25px;
+    }
+
+    #buttonheading{
+        height: 65px;
+        width: 1000px;
+        border-radius: 10px;
+        font-size: 30px;
+    }
+   
