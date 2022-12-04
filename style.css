@@ -1,33 +1,36 @@
-body{
-    background-size:cover;
-    text-align: center;
-  }
+body
+{
+    background-size: cover;
+    background-position: center;
+}
 
-   button{
-      font-size: 18px;
-      height: 40px;
-      width: 280px;
-      border:double;
-      border-radius: 20px;
-      border-color:lightseagreen;
-         color: white;
-      background-color:black;
-     
-    }
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+}
 
-    #buttonheading{
-      color:rgb(0, 229, 255);
-    }
+#status
+{
+font-size: 18px;
+}
 
-    button:hover{
-      color:rgb(47, 0, 255);
-      font-size: 25px;
-    }
+canvas
+{
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 10px;
+}
 
-    #buttonheading{
-        height: 65px;
-        width: 1000px;
-        border-radius: 10px;
-        font-size: 30px;
-    }
-   
+#button
+{
+font-size: 18px;
+width: 80%;
+}
+
+#btn
+{
+    height: 40px;
+    width: 50%;
+    border-radius: 15px;
+}

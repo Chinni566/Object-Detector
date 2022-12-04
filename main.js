@@ -1,30 +1,23 @@
-img = "";
-
-status = "";
-objects = [];
-
-
-function setup(){
-    canvas = createCanvas( 380 , 380);
-    canvas.center();
-    objectDetector = ml5.objectDetector('cocossd', modelLoaded);
-    document.getElementById("status").innerHTML  =  "Status : Detecting Objects";
+function bedroom()
+{
+    window.location = "bedroom.html";
 }
 
-function modelLoaded(){
-    console.log("Model is loaded");
-     status = true;
-
-   objectDetector.detect(img , gotResults);
+function living()
+{
+    window.location = "living.html";
 }
 
-function gotResults(error , results){
-    if (error) {
-       console.log(error);
+function balcony()
+{
+    window.location = "balcony.html";
+}
+function bottle()
+{
+    window.location = "bottle.html";
+}
 
-    } 
-    else {
-       console.log(results);
-       objects = results;
-    }
+function living()
+{
+    window.location = "book.html";
 }
